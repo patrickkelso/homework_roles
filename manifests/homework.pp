@@ -1,7 +1,7 @@
 class roles::homework {
 
   include profiles::apache
-  #  include profiles::mysqlserver
+  include profiles::mysqlserver
   include ::version
   include profiles::vhost1
   include profiles::vhost2
